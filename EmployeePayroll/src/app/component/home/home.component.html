@@ -1,0 +1,58 @@
+<body>
+    <!-- Header Part with logo-->
+    <header class="header-content header">
+        <div class="logo-content">
+            <img [src]="logoUrl" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br> 
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content">
+
+        <div class="header-content">
+            <div class="emp-detail-text">
+                Employee Details 
+            </div>
+            <a routerLink="form" class="add-button">
+                <img [src]="addUrl" alt="">Add User
+            </a>
+        </div>
+
+        <div class="table-main">
+            <table id="display" class="table"> 
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>department</th>
+                    <th>salary</th>
+                    <th>Start Date</th>
+                    <th>Actions</th>
+                </tr>
+                <!-- <tr>
+                    <td>
+                        <img class="profile" alt="" src="./assets/profile-images/Ellipse -2.png">
+                    </td>
+                    <td>Hitesh meher</td>
+                    <td>Male</td>
+                    <td>
+                        <div class="dept-label">HR</div>
+                        <div class="dept-label">Engineer</div>
+                    </td>
+                    <td>3000000</td>
+                    <td>21 Sept 2022</td>
+                    <td>
+                        <img class="one" id="1" alt="delete" [src]="deleteUrl">
+                        <img class="one" id="1" alt="edit" [src]="editUrl">
+                    </td>
+                </tr> -->
+            </table>
+
+        </div>
+        
+    </div> 
+    
+</body>
